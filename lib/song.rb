@@ -10,8 +10,7 @@ class Song
     @artist = artist
     @genre = genre
     @@count += 1
-    @genre.each do |genre|
-      @@genres << genre unless @@genres.include?(genre)
+    @@genres << genre
   end
   
   def self.count
