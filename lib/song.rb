@@ -38,6 +38,10 @@ class Song
     end
     genre_count
   end 
+  
+  def self.artist_count
+    count = hash.new
+  end
 end
   
     
